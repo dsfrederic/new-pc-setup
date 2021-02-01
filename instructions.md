@@ -12,8 +12,9 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 Run with elevated priviliges
 
-```
-
+```powershell
+$ScriptFromGithHub = Invoke-WebRequest "https://raw.githubusercontent.com/dsfrederic/new-pc-setup/master/windows/programs.ps1"
+Invoke-Expression $($ScriptFromGithHub.Content)
 ```
 
 open powershell profile with `notepad $profile.CurrentUserAllHosts` and replace with the content of `powershell_profile.ps1`
