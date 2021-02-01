@@ -1,4 +1,4 @@
-# Install chocolate GUI
+# upgrade chocolate GUI
 choco upgrade chocolateygui -fy
 
 # Browsers
@@ -6,26 +6,26 @@ choco upgrade googlechrome -fy
 
 # Coding
 choco upgrade git -fy
-choco install poshgit
+choco upgrade poshgit
 choco upgrade vscode -fy
-choco install python -fy
-choco install terraform -fy
+choco upgrade python -fy
+choco upgrade terraform -fy
 
 # Azure
-choco install azure-cli -fy
-choco install microsoftazurestorageexplorer -fy
+choco upgrade azure-cli -fy
+choco upgrade microsoftazurestorageexplorer -fy
 
 # Containers
-choco install docker-desktop -fy
-choco install kubernetes-helm -fy
-choco install kubernetes-cli -fy
-choco install lens -fy
+choco upgrade docker-desktop -fy
+choco upgrade kubernetes-helm -fy
+choco upgrade kubernetes-cli -fy
+choco upgrade lens -fy
 
 # Utilities
-choco install wsl2 -fy
-choco install wsl-ubuntu-2004 -fy
+choco upgrade wsl2 -fy
+choco upgrade wsl-ubuntu-2004 -fy
 choco upgrade 7zip.upgrade -fy
 choco upgrade nordpass -fy
 choco upgrade logitech-options -fy
-choco install spotify
+choco upgrade spotify
 choco upgrade nordvpn -fy
