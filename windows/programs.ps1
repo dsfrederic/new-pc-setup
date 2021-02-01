@@ -5,7 +5,7 @@ choco upgrade chocolateygui -fy
 choco upgrade googlechrome -fy
 
 # Coding
-choco upgrade git -fy
+choco upgrade git -fy # requires config
 choco upgrade poshgit
 choco upgrade vscode -fy
 choco upgrade python -fy
