@@ -15,6 +15,8 @@ choco upgrade vscode -fy
 # Programming languages, frameworks,... 
 choco upgrade python -fy
 
+choco upgrade insomnia-rest-api-client
+
 # Azure
 choco upgrade azure-cli -fy
 az extension add --name azure-devops
