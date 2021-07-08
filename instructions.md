@@ -18,3 +18,6 @@ Invoke-Expression $($ScriptFromGithHub.Content)
 ```
 
 open powershell profile with `notepad $profile.CurrentUserAllHosts` and replace with the content of `powershell_profile.ps1`
+
+# MacOS setup
+https://pascalnaber.wordpress.com/2019/10/05/have-a-great-looking-terminal-and-a-more-effective-shell-with-oh-my-zsh-on-wsl-2-using-windows/ 
