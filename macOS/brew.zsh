@@ -5,6 +5,7 @@ brew install --cask visual-studio-code
 brew install --cask docker
 brew install --cask spotify
 brew install --cask bitwarden
+brew install --cask github
 
 
 brew install yarn 
