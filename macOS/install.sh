@@ -29,6 +29,7 @@ git config --global fetch.prune true
 git config --global color.ui auto
 #TODO: add git aliases  fre
 
+
 brew install --cask visual-studio-code
 brew install python
 brew install --cask github
