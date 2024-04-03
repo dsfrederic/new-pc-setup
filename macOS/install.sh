@@ -7,7 +7,7 @@ brew install --cask firefox
 brew install --cask bitwarden
 
 ## Devices
-#brew install --cask logi-options-plus ## DOES NOT WORK
+brew install --cask logi-options-plus ## DOES NOT WORK
 
 
 ## Productivity
@@ -27,8 +27,9 @@ git config --global mergetool.vscode.cmd 'code --wait $MERGED'
 git config --global merge.tool vscode
 git config --global fetch.prune true
 git config --global color.ui auto
-#TODO: add git aliases  fre
+#TODO: add git aliases 
 
+brew install --cask git-credential-manager
 
 brew install --cask visual-studio-code
 brew install python
@@ -45,6 +46,7 @@ az init
 az config set defaults.location=westeurope defaults.group=rg-fds-default
 az config set output.show_survey_link=no
 brew install databricks 
+brew install --cask microsoft-remote-desktop
 
 ## Entertainment
 brew install --cask spotify
