@@ -43,15 +43,23 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 brew install powershell/tap/powershell ## Extra config required in VSCode
 
-brew install terraform
+brew tap hashicorp/tap
+brew install hashicorp/tap/terraform
 
 ## Azure 
 brew install azure-cli 
 az init
 az config set defaults.location=westeurope defaults.group=rg-fds-default
 az config set output.show_survey_link=no
-brew install databricks 
 brew install --cask microsoft-remote-desktop
+
+brew tap databricks/tap
+brew install databricks
+
+brew install --cask dotnet
+brew install dotnet
+
+dotnet tool install --global azure-cost-cli 
 
 ## Entertainment
 brew install --cask spotify
