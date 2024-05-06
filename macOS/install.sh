@@ -42,9 +42,17 @@ git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:
 
 
 brew install powershell/tap/powershell ## Extra config required in VSCode
+Install-Module -Name Az -Repository PSGallery -Force
 
 brew tap hashicorp/tap
 brew install hashicorp/tap/terraform
+
+brew tap azure/functions
+brew install azure-functions-core-tools@4
+# if upgrading on a machine that has 2.x or 3.x installed:
+brew link --overwrite azure-functions-core-tools@4
+
+brew install --cask insomnia
 
 ## Azure 
 brew install azure-cli 
@@ -52,6 +60,7 @@ az init
 az config set defaults.location=westeurope defaults.group=rg-fds-default
 az config set output.show_survey_link=no
 brew install --cask microsoft-remote-desktop
+brew install --cask microsoft-azure-storage-explorer
 
 brew tap databricks/tap
 brew install databricks
