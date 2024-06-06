@@ -21,3 +21,4 @@ open powershell profile with `notepad $profile.CurrentUserAllHosts` and replace 
 
 # MacOS setup
 https://pascalnaber.wordpress.com/2019/10/05/have-a-great-looking-terminal-and-a-more-effective-shell-with-oh-my-zsh-on-wsl-2-using-windows/ 
+https://www.thushanfernando.com/posts/2022/managing-macos-with-brewfile/
